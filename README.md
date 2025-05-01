@@ -26,7 +26,7 @@ An intelligent backend system that automatically validates scanned application f
 
 ## 🧠 Architecture
 
-![Architecture Diagram](docs/architecture.png)
+![Architecture Diagram](architecture.png)
 
 ---
 
