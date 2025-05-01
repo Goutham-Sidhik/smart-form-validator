@@ -1,0 +1,8 @@
+flask
+opencv-python
+pytesseract
+boto3
+Pillow
+cryptography
+schedule
+python-dotenv
