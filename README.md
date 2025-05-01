@@ -101,11 +101,11 @@ DB_URI=mysql://user:password@host:port/dbname
 python src/main.py
 ```
 
-This will start the scheduler that polls the database at regular intervals and automatically processes new encrypted form image entries.
+This will run the code that regularly checks the database for new encrypted form images and automatically processes them. The regular checking interval can also be changed to run just once, to process all images available up to the current time, based on the user's requirement.
 
 ---
 
-## 📥 Example Output (Simulated)
+## 📥 Example Output
 
 ```json
 {
@@ -118,8 +118,7 @@ This will start the scheduler that polls the database at regular intervals and a
     "name": "Ravi Kumar",
     "dob": "1992-07-11",
     "gender": "Male"
-  },
-  "alert": "Gender mismatch detected"
+  }
 }
 ```
 
@@ -137,7 +136,7 @@ You are free to adapt the structure, pipeline logic, and modular components for 
 
 **Goutham Sidhik**  
 AI/ML Engineer | Computer Vision & GenAI Developer  
-[LinkedIn](https://www.linkedin.com/in/goutham-sidhik-amuluru-50231b163/) *(replace with your actual URL)*
+[LinkedIn](https://www.linkedin.com/in/goutham-sidhik-amuluru-50231b163/)
 
 ---
 
