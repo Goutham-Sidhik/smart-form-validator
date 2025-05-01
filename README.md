@@ -1,6 +1,6 @@
 # 🧾 Smart Form Validator (Automated Backend)
 
-An intelligent backend system that automatically validates scanned application forms stored in a secure database. The system detects inappropriate or spoofed images, validates gender identity, and extracts form fields using OCR — all without manual input or user interface.
+An intelligent backend system that automatically validates scanned application forms stored in a secure database. The system detects inappropriate or spoofed images, validates gender identity, and extracts form fields using OCR.
 
 ---
 
@@ -38,10 +38,8 @@ An intelligent backend system that automatically validates scanned application f
 | Image Processing   | OpenCV, Pillow               |
 | OCR                | Pytesseract, AWS Textract    |
 | Content Analysis   | AWS Rekognition              |
-| Encryption         | `cryptography` module        |
 | API Framework      | Flask                        |
-| Scheduling         | `schedule` or `APScheduler`  |
-| Database           | MySQL/PostgreSQL (placeholder) |
+| Database           | MySQL                        |
 
 ---
 
@@ -139,7 +137,7 @@ You are free to adapt the structure, pipeline logic, and modular components for 
 
 **Goutham Sidhik**  
 AI/ML Engineer | Computer Vision & GenAI Developer  
-[LinkedIn](https://www.linkedin.com/in/yourprofile) *(replace with your actual URL)*
+[LinkedIn](https://www.linkedin.com/in/goutham-sidhik-amuluru-50231b163/) *(replace with your actual URL)*
 
 ---
 
