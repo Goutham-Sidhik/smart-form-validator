@@ -50,7 +50,6 @@ smart-form-validator/
 │
 ├── README.md                 # Project overview and documentation
 ├── requirements.txt          # Required Python packages
-├── .gitignore                # Files/folders to ignore in Git
 │
 ├── src/                      # Source code
 │   ├── main.py               # Entry point with scheduler loop
@@ -62,10 +61,7 @@ smart-form-validator/
 │
 ├── docs/                     # Documentation assets
 │   └── architecture.png      # Architecture flow diagram
-│
-├── examples/                 # Sample input/output files
-│   ├── encrypted_sample.bin
-│   └── validation_output.json
+
 ```
 
 ---
@@ -101,7 +97,8 @@ DB_URI=mysql://user:password@host:port/dbname
 python src/main.py
 ```
 
-This will run the code that regularly checks the database for new encrypted form images and automatically processes them. The regular checking interval can also be changed to run just once, to process all images available up to the current time, based on the user's requirement.
+* This will run the code that regularly checks the database for new encrypted form images and automatically processes them.
+* The regular checking interval can also be changed to run just once, to process all images available up to the current time, based on the user's requirement.
 
 ---
 
@@ -128,7 +125,9 @@ This will run the code that regularly checks the database for new encrypted form
 
 This repository demonstrates a professional-grade application structure and processing pipeline.  
 It **does not include** proprietary data, production-trained models, or confidential credentials.  
+All functions are **dummy implementations** created solely to illustrate the flow and structure of the system.  
 You are free to adapt the structure, pipeline logic, and modular components for educational, testing, or private deployments.
+
 
 ---
 
