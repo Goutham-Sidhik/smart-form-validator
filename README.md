@@ -49,7 +49,7 @@ The goal of the **Smart Form Validator** is to automate the verification of scan
 
 ---
 
-## 🔄 Process & Flow
+## 🔄 Pipeline Overview
 
 This backend service operates in a fully automated manner, capable of running on a schedule or processing all entries available at a specific time. Below is the generalized flow of the application:
 
